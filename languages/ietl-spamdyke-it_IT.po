@@ -1,0 +1,149 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Spamdyke Analyzer 1.1\n"
+"POT-Creation-Date: 2013-06-23 22:16+0100\n"
+"PO-Revision-Date: 2013-07-04 17:58+0100\n"
+"Last-Translator: Alessandro Consorti <alessandro.consorti@gmail.com>\n"
+"Language-Team: Alessandro Consorti <alessandro.consorti@gmail.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../ietl-spamdyke.php:34
+#, php-format
+msgid "Spamdyke's error code: %s"
+msgstr "Codice di errore Spamdyke: %s"
+
+#: ../ietl-spamdyke.php:42
+msgid "Refused. Access is denied."
+msgstr "Rifiutato. Accesso negato."
+
+#: ../ietl-spamdyke.php:45
+msgid "Refused. Authentication is required to send mail."
+msgstr "Rifiutato. Autenticazione richiesta per poter inviare email."
+
+#: ../ietl-spamdyke.php:48
+msgid "Refused. Your IP address is blacklisted."
+msgstr "Rifiutato. Il tuo indirizzo IP è in lista nera."
+
+#: ../ietl-spamdyke.php:51
+msgid "Refused. Your domain name is blacklisted."
+msgstr "Rifiutato. Il tuo nome di dominio è in lista nera."
+
+#: ../ietl-spamdyke.php:54
+msgid "Refused. You are not following the SMTP protocol."
+msgstr "Rifiutato. Non stai seguendo il protocollo SMTP."
+
+#: ../ietl-spamdyke.php:57
+msgid "Your address has been graylisted. Try again later."
+msgstr "Il tuo indirizzo è in graylist. Prova di nuovo più tardi."
+
+#: ../ietl-spamdyke.php:60
+msgid "Refused. Your message has been blocked due to its content."
+msgstr ""
+"Rifiutato. Il tuo messaggio è stato bloccato a causa del suo contenuto."
+
+#: ../ietl-spamdyke.php:63
+msgid "Refused. Identical sender and recipient addresses are not allowed."
+msgstr "Rifiutato. Mittente e destinatario identici non sono permessi."
+
+#: ../ietl-spamdyke.php:66
+msgid ""
+"Refused. Your reverse DNS entry contains your IP address and a country code."
+msgstr ""
+"Rifiutato. Il tuo reverse DNS contiene il tuo indirizzo IP ed il codice "
+"nazione."
+
+#: ../ietl-spamdyke.php:69
+msgid ""
+"Refused. Your reverse DNS entry contains your IP address and a banned "
+"keyword."
+msgstr ""
+"Rifiutato. Il tuo reverse DNS contiene il tuo indirizzo IP ed una parola "
+"chiave bannata."
+
+#: ../ietl-spamdyke.php:72
+msgid ""
+"The text returned by qmail (or the downstream filter that generated the "
+"rejection)."
+msgstr ""
+"Il testo restituito da qmail (o il filtro a valle che ha generato il "
+"rifiuto)."
+
+#: ../ietl-spamdyke.php:75
+msgid ""
+"The text returned by the DNS RBL (if any) or Refused. Your IP address is "
+"listed in the RBL at name."
+msgstr ""
+"Il testo restituito dal RBL DNS (se presente) o rifiutato. Il tuo indirizzo "
+"IP è elencato nel RBL al nome."
+
+#: ../ietl-spamdyke.php:78
+msgid "Refused. You have no reverse DNS entry."
+msgstr "Rifiutato. Non hai un reverse DNS."
+
+#: ../ietl-spamdyke.php:81
+msgid "Refused. Your reverse DNS entry does not resolve."
+msgstr "Rifiutato. Il tuo reverse DNS non viene risolto."
+
+#: ../ietl-spamdyke.php:84
+msgid ""
+"The text returned by the RHSBL (if any) or Refused. Your domain name is "
+"listed in the RHSBL at name."
+msgstr ""
+"Il testo restituito dal RHSBL (se presente) o rifiutato. Il tuo nome di "
+"dominio è elencato nel RHSBL al nome."
+
+#: ../ietl-spamdyke.php:87
+msgid "Refused. Mail is not being accepted at this address."
+msgstr "Rifiutato. Email non accettata a questo indirizzo."
+
+#: ../ietl-spamdyke.php:90
+msgid "Refused. Mail is not being accepted."
+msgstr "Rifiutato. Email non accettata."
+
+#: ../ietl-spamdyke.php:93
+msgid "Refused. Sending to remote addresses (relaying) is not allowed."
+msgstr "Rifiutato. L'invio a indirizzi remoti (inoltro) non è consentito."
+
+#: ../ietl-spamdyke.php:96
+msgid "Refused. Your sender address has been blacklisted."
+msgstr "Rifiutato. L'indirizzo del mittente è stato inserito in lista nera."
+
+#: ../ietl-spamdyke.php:99
+msgid "Refused. The domain of your sender address has no mail exchanger (MX)."
+msgstr "Rifiutato. Il dominio del mittente non ha alcun Mail Exchanger (MX)."
+
+#: ../ietl-spamdyke.php:102
+msgid "Too many recipients. Try the remaining addresses again later."
+msgstr "Troppi recipienti. Riprova più tardi gli indirizzi rimanenti."
+
+#: ../ietl-spamdyke.php:105
+msgid "Improper recipient address. Try supplying a domain name."
+msgstr "Indirizzo destinatario improprio. Prova a fornire un nome di dominio."
+
+#: ../ietl-spamdyke.php:108
+msgid "Refused. You must specify at least one valid recipient."
+msgstr "Rifiutato. Devi specificare almeno un recipiente valido."
+
+#: ../ietl-spamdyke.php:111
+msgid "Refused. Authentication failed."
+msgstr "Rifiutato. Autenticazione fallita."
+
+#: ../ietl-spamdyke.php:114
+msgid "Failed to negotiate TLS connection."
+msgstr "Fallimento nella negoziazione della connessione TLS."
+
+#: ../ietl-spamdyke.php:117
+msgid "Timeout. Talk faster next time."
+msgstr "Tempo scaduto. Vai più in fretta la prossima volta."
+
+#: ../ietl-spamdyke.php:120
+msgid "Refused. Unknown authentication method."
+msgstr "Rifiutato. Metodo di autenticazione sconosciuto."
